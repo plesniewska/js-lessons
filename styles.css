@@ -1,5 +1,5 @@
 body {
-    background-image: url('kotki.jpg');
+    background-image: url('img2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +28,18 @@ body {
     }
 
 }
-
+.top-menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+.form {
+    display: flex;
+    flex-direction:column;
+}
+.list {
+    display: flex;
+    justify-content: end;
+}
 .orange {
     color: #fa0303
 }
