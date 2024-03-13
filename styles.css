@@ -30,6 +30,7 @@ body {
     font-size: large;
     font: Arial;
     color: #0593ff;
+    width: 100%;
 }
 .list {
     display: flex;
