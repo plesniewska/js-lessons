@@ -1,40 +1,35 @@
 body {
-    background-image: url('img2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-    h1 {
-        color: #0593ff;
-        position: center top
-    }
-
-    ;
-
-    h2 {
-        color: #d3ff12
-    }
-
-    ;
-
-    h3 {
-        color: #ea17b5
-    }
-
-    ;
-
-    h4 {
-        color: #ffac12
-    }
-
 }
-.top-menu {
+.top-menu{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    width:100%;
 }
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: #0593ff;
+    font: 50px Arial;
+    
+}
+  
 .form {
+    background-color: chartreuse;
     display: flex;
     flex-direction:column;
+    font-size: large;
+    font: Arial;
+    color: #0593ff;
 }
 .list {
     display: flex;
